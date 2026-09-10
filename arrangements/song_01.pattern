@@ -1,0 +1,50 @@
+TEMPO 120
+TIME 4/4
+
+TRACK Piano
+
+BAR 1
+1.1: C2 duration=1/1 velocity=80
+1.1: C4 + E4 + G4 duration=1/2 velocity=90
+1.3: G3 + C4 + E4 duration=1/2 velocity=90
+1.1: E5 duration=1/16 velocity=108
+1.1.2: D5 duration=1/16 velocity=100
+1.1.3: C5 duration=1/8 velocity=100
+1.2: B4 duration=1/4 velocity=92
+1.4: C5 duration=1/8 velocity=105
+
+BAR 2
+2.1: A1 duration=1/1 velocity=80
+2.1: A3 + C4 + E4 duration=1/2 velocity=90
+2.3: E3 + A3 + C4 duration=1/2 velocity=90
+2.1: C5 duration=1/16 velocity=106
+2.1.2: B4 duration=1/16 velocity=100
+2.1.3: A4 duration=1/8 velocity=100
+2.2: A4 duration=1/8 velocity=92
+2.3: E5 duration=1/2 velocity=108
+
+BAR 3
+3.1: F2 duration=1/1 velocity=78
+3.1: F3 + A3 + C4 duration=1/4 velocity=90
+3.2: F3 + A3 + C4 duration=1/8 velocity=84
+3.3: F3 + A3 + C4 duration=1/4 velocity=90
+3.4: F3 + A3 + C4 duration=1/8 velocity=86
+3.1: F5 duration=1/4 velocity=106
+3.2: A4 duration=1/8 velocity=92
+3.3: E5 duration=1/8 velocity=98
+3.3.3: D5 duration=1/16 velocity=96
+3.4: C5 duration=1/16 velocity=94
+3.4.2: D5 duration=1/16 velocity=94
+3.4.3: E5 duration=1/8 velocity=100
+
+BAR 4
+4.1: G1 duration=1/2 velocity=85
+4.3: G2 duration=1/2 velocity=82
+4.1: G3 + B3 + D4 duration=1/2 velocity=90
+4.3: B3 + D4 + G4 duration=1/2 velocity=92
+4.1: D5 duration=1/8 velocity=100
+4.1.3: B4 duration=1/16 velocity=96
+4.2: A4 duration=1/16 velocity=96
+4.2.3: G4 duration=1/8 velocity=92
+4.3: B4 duration=1/4 velocity=98
+4.4: D5 duration=1/8 velocity=100
