@@ -39,6 +39,36 @@ python generate.py arrangements/song_01.pattern
 # writes output/song_01.mid
 ```
 
+### MIDI Reader (v1.1)
+
+The MIDI Reader allows you to inspect MIDI files or convert them back into `.pattern` files.
+
+**Inspect a MIDI file:**
+```bash
+python read.py arrangements/song_01.mid
+```
+
+**Convert MIDI to `.pattern`:**
+```bash
+python read.py arrangements/song_01.mid --to-pattern
+# writes arrangements/song_01.pattern
+```
+
+**Specify output path:**
+```bash
+python read.py arrangements/song_01.mid --to-pattern -o arrangements/my_version.pattern
+```
+
+**Timing Behavior:**
+The reader is strictly deterministic and faithful to the source MIDI. 
+- If a note lands exactly on a sixteenth-note grid position, it is converted to the corresponding `bar.beat.sub` notation.
+- If a note is "off-grid", the reader preserves its exact beat position. During `.pattern` conversion, it reports the precise beat value.
+- No silent quantization or timing alteration is performed.
+
+**Octave Convention:**
+The reader uses the same Logic Pro convention as the generator: C3 is middle C (MIDI 60).
+
+
 Turn one of the bundled samples into MIDI (the only operating mode that needs
 no arguments):
 
