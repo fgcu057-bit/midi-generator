@@ -1,0 +1,38 @@
+This is a .pattern arrangement file for a deterministic MIDI generator.
+Logic Pro octave numbering is used (Middle C = C3).
+
+INSTRUCTIONS FOR CHATGPT:
+1. This is the starting arrangement.
+2. If I ask for changes, modify only the specific parts requested.
+3. Keep all other parts of the arrangement exactly as they are.
+4. Do NOT return a partial patch or a summary of changes.
+5. You MUST return the COMPLETE replacement .pattern file.
+6. Ensure the output follows the exact .pattern syntax provided below.
+7. Do not invent new musical material unless explicitly requested.
+
+--- START OF .PATTERN FILE ---
+TEMPO 120
+TIME 4/4
+
+TRACK Piano
+
+BAR 1
+1.1: C3 + E3 + G3 duration=1/4 velocity=100
+1.2: C4 duration=1/4 velocity=90
+1.3: E4 duration=1/4 velocity=90
+1.4: G4 duration=1/4 velocity=90
+
+BAR 2
+2.1: C3 + E3 + G3 duration=1/4 velocity=100
+2.2: G4 duration=1/4 velocity=100
+2.3: F4 duration=1/4 velocity=90
+2.4: E4 duration=1/4 velocity=90
+
+TRACK Bass
+
+BAR 1
+1.1: C1 duration=1/1 velocity=110
+
+BAR 2
+2.1: G0 duration=1/1 velocity=110
+--- END OF .PATTERN FILE ---
