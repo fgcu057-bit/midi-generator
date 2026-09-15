@@ -1,0 +1,87 @@
+TEMPO 109
+TIME 4/4
+
+TRACK Top2
+BAR 9
+9.1: D#1 velocity=98 duration=1/4
+9.2: F1 velocity=98 duration=1/4
+9.3: D#1 velocity=98 duration=1/4
+9.4: G1 velocity=98 duration=1/4
+BAR 10
+10.1: D#1 velocity=98 duration=1/4
+10.2: F1 velocity=98 duration=1/4
+10.3: D#1 velocity=98 duration=1/4
+10.4: G1 velocity=98 duration=1/4
+BAR 11
+11.1: D#1 velocity=98 duration=1/4
+11.2: F1 velocity=98 duration=1/4
+11.3: D#1 velocity=98 duration=1/4
+11.4: G1 velocity=98 duration=1/4
+BAR 12
+12.1: D#1 velocity=98 duration=1/4
+12.2: F1 velocity=98 duration=1/4
+12.3: D#1 velocity=98 duration=1/4
+12.4: G1 velocity=98 duration=1/4
+BAR 13
+13.1: D#1 velocity=98 duration=1/4
+13.2: G#0 velocity=98 duration=1/4
+13.3: D#1 velocity=98 duration=1/4
+13.4: F1 velocity=98 duration=1/4
+BAR 14
+14.1: D#1 velocity=98 duration=1/4
+14.2: A#0 velocity=98 duration=1/4
+14.3: D#1 velocity=98 duration=1/4
+14.4: F1 velocity=98 duration=1/4
+BAR 15
+15.1: D#1 velocity=98 duration=1/4
+15.2: C2 velocity=98 duration=1/4
+15.3: D#1 velocity=98 duration=1/4
+15.4: F1 velocity=98 duration=1/4
+BAR 16
+16.1: D#1 velocity=98 duration=1/4
+16.2: F1 velocity=98 duration=1/4
+16.3: D#1 velocity=98 duration=1/4
+16.4: G1 velocity=98 duration=1/4
+BAR 17
+17.1: D#1 velocity=98 duration=1/4
+17.2: G#0 velocity=98 duration=1/4
+17.3: D#1 velocity=98 duration=1/4
+17.4: F1 velocity=98 duration=1/4
+BAR 18
+18.1: D#1 velocity=98 duration=1/4
+18.2: A#1 velocity=98 duration=1/4
+18.3: D#1 velocity=98 duration=1/4
+18.4: F1 velocity=98 duration=1/4
+BAR 19
+19.1: D#1 velocity=98 duration=1/4
+19.2: C2 velocity=98 duration=1/4
+19.3: D#2 velocity=98 duration=1/4
+19.4: F2 velocity=98 duration=1/4
+BAR 20
+20.1: D#2 velocity=98 duration=1/4
+20.2: F2 velocity=98 duration=1/4
+20.3: D#2 velocity=98 duration=1/4
+20.4: G2 velocity=98 duration=1/4
+BAR 21
+21.1: D#2 velocity=98 duration=1/4
+21.2: G#1 velocity=98 duration=1/4
+21.3: D#2 velocity=98 duration=1/4
+21.4: F2 velocity=98 duration=1/4
+BAR 22
+22.1: D#2 velocity=98 duration=1/4
+22.2: A#1 velocity=98 duration=1/4
+22.3: D#2 velocity=98 duration=1/4
+22.4: F2 velocity=98 duration=1/4
+BAR 23
+23.1: D#2 velocity=98 duration=1/4
+23.2: C3 velocity=98 duration=1/4
+23.3: D#4 velocity=98 duration=1/4
+23.4: F4 velocity=98 duration=1/4
+BAR 24
+24.1: C3 velocity=98 duration=1/4
+24.1: D#4 velocity=98 duration=1/4
+24.2: F4 velocity=98 duration=1/4
+24.3: D#4 velocity=98 duration=1/4
+24.4: G4 velocity=98 duration=1/4
+BAR 25
+25.1: D#4 velocity=98 duration=1/4

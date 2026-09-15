@@ -1,0 +1,44 @@
+TEMPO 120
+TIME 4/4
+
+TRACK Synth Pluck
+
+BAR 1
+1.1.1: F4 duration=1/16 velocity=92
+1.1.3: A4 duration=1/16 velocity=82
+1.2.1: C5 duration=1/16 velocity=100
+1.2.4: A4 duration=1/16 velocity=78
+1.3.2: F4 duration=1/16 velocity=88
+1.3.4: E4 duration=1/16 velocity=76
+1.4.1: A4 duration=1/16 velocity=96
+1.4.3: C5 duration=1/16 velocity=86
+
+BAR 2
+2.1.1: E4 duration=1/16 velocity=84
+2.1.4: G4 duration=1/16 velocity=76
+2.2.2: C5 duration=1/16 velocity=98
+2.2.4: G4 duration=1/16 velocity=80
+2.3.1: E4 duration=1/16 velocity=88
+2.3.3: A4 duration=1/16 velocity=94
+2.4.2: C5 duration=1/16 velocity=104
+2.4.4: E5 duration=1/16 velocity=88
+
+BAR 3
+3.1.1: F4 duration=1/16 velocity=94
+3.1.3: A4 duration=1/16 velocity=80
+3.2.1: C5 duration=1/16 velocity=102
+3.2.3: A4 duration=1/16 velocity=78
+3.3.2: F4 duration=1/16 velocity=86
+3.3.4: E4 duration=1/16 velocity=80
+3.4.1: A4 duration=1/16 velocity=98
+3.4.3: D5 duration=1/16 velocity=92
+
+BAR 4
+4.1.1: G4 duration=1/16 velocity=88
+4.1.3: C5 duration=1/16 velocity=82
+4.2.1: E5 duration=1/16 velocity=104
+4.2.4: C5 duration=1/16 velocity=78
+4.3.2: G4 duration=1/16 velocity=86
+4.3.4: A4 duration=1/16 velocity=80
+4.4.1: C5 duration=1/16 velocity=98
+4.4.3: D5 duration=1/16 velocity=108

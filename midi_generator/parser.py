@@ -37,6 +37,7 @@ _DURATION_BASES = (Fraction(1, 1), Fraction(1, 2), Fraction(1, 4), Fraction(1, 8
 
 # bar.beat position: "1.1", "2.4"; optional sixteenth sub-position: "1.1.2".
 _POSITION_RE = re.compile(r"^(\d+)\.(\d+)(?:\.(\d+))?\s*:\s*(.+)$")
+_SHORTHAND_RE = re.compile(r"^([A-Ga-g](?:##|bb|#|b)?-?\d+)\s+(\d+)\.(\d+)(?:\.(\d+))?\s+([\d./]+)$")
 _NOTE_MEMBER_RE = re.compile(r"^[A-Ga-g](?:##|bb|#|b)?-?\d+$")
 _DURATION_RE = re.compile(r"\bduration=([\d.]+/[\d.]+)")
 _VELOCITY_RE = re.compile(r"\bvelocity=(\d+)\b")
@@ -143,12 +144,13 @@ def parse_pattern(text: str) -> ParsedPattern:
             if bar <= last:
                 raise PatternError(line_no, f"Bar {bar} is not after bar {last} in track {current_track.name!r}")
             last_bar_in_track[current_track.name] = bar
-        else:  # NOTE
+        elif keyword == "NOTE":
             if current_track is None:
                 raise PatternError(line_no, "Note line appears before any TRACK line")
             bar_number = last_bar_in_track.get(current_track.name, 0)
             if bar_number == 0:
                 raise PatternError(line_no, "Note line appears before any BAR line in this track")
+            
             new_events = _parse_note_line(
                 line_no, args[0], parsed.time_signature, bar_number, current_track.name
             )
@@ -171,6 +173,8 @@ def parse_pattern(text: str) -> ParsedPattern:
                 seen[key] = line_no
             current_track.notes.extend(new_events)
 
+
+
     return parsed
 
 
@@ -181,50 +185,92 @@ def _parse_note_line(
     current_bar: int,
     track_name: str,
 ) -> list[NoteEvent]:
-    """Parse "bar.beat: note-list" into NoteEvents for the given track."""
+    """Parse a note line into NoteEvents for the given track.
+    Supports both canonical "bar.beat: note-list" and shorthand "NOTE POSITION DURATION".
+    """
+    # Try canonical syntax first
     match = _POSITION_RE.match(line)
-    if not match:
-        raise PatternError(
-            line_no,
-            "Expected \"<bar>.<beat>: <notes>\", e.g. 1.2: C4 + E4. "
-            "Note lines must belong to a BAR section.",
-        )
-    bar = int(match.group(1))
-    beat = int(match.group(2))
-    sub = int(match.group(3)) if match.group(3) is not None else 1
-    rest = match.group(4)
+    if match:
+        bar = int(match.group(1))
+        beat = int(match.group(2))
+        sub = int(match.group(3)) if match.group(3) is not None else 1
+        rest = match.group(4)
+        
+        if bar != current_bar:
+            raise PatternError(
+                line_no, f"Position bar {bar} does not match the active BAR {current_bar} in track {track_name!r}"
+            )
+        
+        velocity, duration, note_text = _extract_modifiers(line_no, rest)
+        
+        beats_per_bar = time_signature.numerator
+        position_str = _position_token(bar, beat, sub)
+        if not 1 <= beat <= beats_per_bar:
+            raise PatternError(
+                line_no,
+                f"Position {position_str}: Beat {beat} is outside the 1..{beats_per_bar} range of "
+                f"time signature {time_signature.numerator}/{time_signature.denominator}",
+            )
+        if not 1 <= sub <= 4:
+            raise PatternError(
+                line_no,
+                f"Position {position_str}: Sixteenth sub-position {sub} is outside the 1..4 range "
+                f"(a beat is 4 sixteenths)",
+            )
+        
+        start_beats = float((bar - 1) * beats_per_bar + (beat - 1) + (sub - 1) * 0.25)
+        duration_beats = float(duration * beats_per_bar)
+        
+        events: list[NoteEvent] = []
+        for raw_name in note_text.split("+"):
+            name = raw_name.strip()
+            if not name:
+                raise PatternError(line_no, "Empty note name before/after '+'")
+            if not _NOTE_MEMBER_RE.match(name):
+                raise PatternError(line_no, f"Invalid note name {name!r}")
+            events.append(NoteEvent(pitch=name, start_beats=start_beats, duration_beats=duration_beats, velocity=velocity))
+        return events
 
-    if bar != current_bar:
-        raise PatternError(
-            line_no, f"Position bar {bar} does not match the active BAR {current_bar} in track {track_name!r}"
-        )
+    # Try shorthand syntax: NOTE POSITION DURATION
+    sh_match = _SHORTHAND_RE.match(line)
+    if sh_match:
+        pitch = sh_match.group(1)
+        bar = int(sh_match.group(2))
+        beat = int(sh_match.group(3))
+        sub = int(sh_match.group(4)) if sh_match.group(4) is not None else 1
+        duration_str = sh_match.group(5)
+        
+        if bar != current_bar:
+            raise PatternError(
+                line_no, f"Position bar {bar} does not match the active BAR {current_bar} in track {track_name!r}"
+            )
+            
+        beats_per_bar = time_signature.numerator
+        position_str = _position_token(bar, beat, sub)
+        if not 1 <= beat <= beats_per_bar:
+            raise PatternError(
+                line_no,
+                f"Position {position_str}: Beat {beat} is outside the 1..{beats_per_bar} range of "
+                f"time signature {time_signature.numerator}/{time_signature.denominator}",
+            )
+        if not 1 <= sub <= 4:
+            raise PatternError(
+                line_no,
+                f"Position {position_str}: Sixteenth sub-position {sub} is outside the 1..4 range "
+                f"(a beat is 4 sixteenths)",
+            )
 
-    velocity, duration, note_text = _extract_modifiers(line_no, rest)
+        duration = _parse_duration(line_no, duration_str)
+        start_beats = float((bar - 1) * beats_per_bar + (beat - 1) + (sub - 1) * 0.25)
+        duration_beats = float(duration * beats_per_bar)
+        
+        return [NoteEvent(pitch=pitch, start_beats=start_beats, duration_beats=duration_beats, velocity=DEFAULT_VELOCITY)]
 
-    beats_per_bar = time_signature.numerator
-    if not 1 <= beat <= beats_per_bar:
-        raise PatternError(
-            line_no,
-            f"Beat {beat} is outside the 1..{beats_per_bar} range of time signature "
-            f"{time_signature.numerator}/{time_signature.denominator}",
-        )
-    if not 1 <= sub <= 4:
-        raise PatternError(
-            line_no, f"Sixteenth sub-position {sub} is outside the 1..4 range (a beat is 4 sixteenths)"
-        )
-
-    start_beats = float((bar - 1) * beats_per_bar + (beat - 1) + (sub - 1) * 0.25)
-    duration_beats = float(duration * beats_per_bar)
-
-    events: list[NoteEvent] = []
-    for raw_name in note_text.split("+"):
-        name = raw_name.strip()
-        if not name:
-            raise PatternError(line_no, "Empty note name before/after '+'")
-        if not _NOTE_MEMBER_RE.match(name):
-            raise PatternError(line_no, f"Invalid note name {name!r}")
-        events.append(NoteEvent(pitch=name, start_beats=start_beats, duration_beats=duration_beats, velocity=velocity))
-    return events
+    raise PatternError(
+        line_no,
+        "Expected \"<bar>.<beat>: <notes>\", e.g. 1.2: C4 + E4, or shorthand \"NOTE POSITION DURATION\", e.g. A#4 1.1 1/4. "
+        "Note lines must belong to a BAR section.",
+    )
 
 
 def _extract_modifiers(line_no: int, rest: str) -> tuple[int, Fraction, str]:
@@ -283,6 +329,11 @@ def _format_position(beats: float, beats_per_bar: int) -> str:
     rem = beats - (bar - 1) * beats_per_bar
     beat = int(rem) + 1
     sub = round((rem - int(rem)) * 4) + 1
+    return _position_token(bar, beat, sub)
+
+
+def _position_token(bar: int, beat: int, sub: int) -> str:
+    """Format a bar/beat/sub tuple back into bar.beat (bar.beat.sub when relevant)."""
     if sub == 1:
         return f"{bar}.{beat}"
     return f"{bar}.{beat}.{sub}"

@@ -16,8 +16,9 @@ import argparse
 import sys
 from pathlib import Path
 
-from midi_generator import MidiBuilder, Tempo, parse_pattern_file
-from midi_generator.midi_builder import TimeSignature, ProgramChange
+from midi_generator.midi_builder_logic import MidiBuilder, Tempo
+from midi_generator.parser import parse_pattern_file
+from midi_generator.midi_builder_logic import TimeSignature, ProgramChange
 from midi_generator.parser import PatternError
 from midi_generator.patterns import (
     four_bar_example,

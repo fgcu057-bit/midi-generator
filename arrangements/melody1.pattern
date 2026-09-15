@@ -1,0 +1,65 @@
+TEMPO 105
+TIME 4/4
+
+TRACK Piano
+
+BAR 1
+1.1: F1 duration=1/16 velocity=80
+1.1.3: A2 duration=1/16 velocity=80
+1.2: A1 duration=1/16 velocity=80
+1.2.3: F2 duration=1/16 velocity=80
+1.3: A1 duration=1/16 velocity=80
+1.3.3: A2 duration=1/16 velocity=80
+1.4: F1 duration=1/16 velocity=80
+1.4.3: A2 duration=1/16 velocity=80
+
+BAR 2
+2.1: A1 duration=1/16 velocity=80
+2.1.3: F2 duration=1/16 velocity=80
+2.2: A1 duration=1/16 velocity=80
+2.2.3: A2 duration=1/16 velocity=80
+2.3: D1 duration=1/16 velocity=80
+2.3.3: A2 duration=1/16 velocity=80
+2.4: D1 duration=1/16 velocity=80
+2.4.3: A2 duration=1/16 velocity=80
+
+BAR 3
+3.1: A1 duration=1/16 velocity=80
+3.1.3: A2 duration=1/16 velocity=80
+3.2: D1 duration=1/16 velocity=80
+3.2.3: A2 duration=1/16 velocity=80
+3.3: A1 duration=1/16 velocity=80
+3.3.3: D2 duration=1/16 velocity=80
+3.4: A1 duration=1/16 velocity=80
+3.4.3: A2 duration=1/16 velocity=80
+
+BAR 4
+4.1: A0 duration=1/16 velocity=80
+4.1.3: E2 duration=1/16 velocity=80
+4.2: E1 duration=1/16 velocity=80
+4.2.3: A2 duration=1/16 velocity=80
+4.3: E1 duration=1/16 velocity=80
+4.3.3: E2 duration=1/16 velocity=80
+4.4: A0 duration=1/16 velocity=80
+4.4.3: E2 duration=1/16 velocity=80
+
+BAR 5
+5.1: E1 duration=1/16 velocity=80
+5.1.3: A2 duration=1/16 velocity=80
+5.2: E1 duration=1/16 velocity=80
+5.2.3: E2 duration=1/16 velocity=80
+5.3: A#0 duration=1/16 velocity=80
+5.3.3: F2 duration=1/16 velocity=80
+5.4: A#0 duration=1/16 velocity=80
+5.4.3: F2 duration=1/16 velocity=80
+
+BAR 6
+6.1: F1 duration=1/16 velocity=80
+6.1.3: A#2 duration=1/16 velocity=80
+6.2: A#0 duration=1/16 velocity=80
+6.2.3: F2 duration=1/16 velocity=80
+6.3: F1 duration=1/16 velocity=80
+6.3.3: A#2 duration=1/16 velocity=80
+6.4: A#0 duration=1/16 velocity=80
+6.4.3: F2 duration=1/16 velocity=80
+

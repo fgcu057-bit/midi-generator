@@ -1,0 +1,1027 @@
+=== MIDI VERIFICATION ===
+File: Love is in the Air, Pt. 1.mid
+Type: 1
+PPQ: 3146112
+Initial Tempo: 120 BPM
+Time Signature: 4/4
+Total Bars: 1
+Track Count: 48
+
+=== TIMING MAP ===
+Base Tempo: 120 BPM
+Base Time Signature: 4/4
+No mid-song tempo/sig changes detected.
+
+TRACK: Track 2
+Channel: 1
+Program: 0
+Note Count: 16
+
+BAR 1:
+1.1: C2 duration=0.002 beats velocity=8
+1.1: A#1 duration=0.002 beats velocity=8
+1.1: A#2 duration=0.002 beats velocity=8
+1.1: C3 duration=0.002 beats velocity=8
+1.1: C3 duration=0.002 beats velocity=21
+1.1: C2 duration=0.002 beats velocity=8
+1.1: C2 duration=0.001 beats velocity=8
+1.1: A#1 duration=0.001 beats velocity=8
+1.1: A#2 duration=0.001 beats velocity=8
+1.1: C3 duration=0.001 beats velocity=8
+1.1: G3 duration=0.002 beats velocity=21
+1.1: G3 duration=0.002 beats velocity=21
+1.1: G3 duration=0.002 beats velocity=21
+1.1: G3 duration=0.002 beats velocity=21
+1.1: G3 duration=0.002 beats velocity=21
+1.1: G3 duration=0.004 beats velocity=21
+
+TRACK: Track 3
+Channel: 2
+Program: 0
+Note Count: 40
+
+BAR 1:
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: C1 duration=0.000 beats velocity=75
+1.1: C1 duration=0.000 beats velocity=75
+1.1: A#0 duration=0.000 beats velocity=75
+1.1: A#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#1 duration=0.000 beats velocity=75
+1.1: A#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: G#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.000 beats velocity=75
+1.1: D#0 duration=0.003 beats velocity=75
+
+TRACK: Track 4
+Channel: 3
+Program: 0
+Note Count: 41
+
+BAR 1:
+1.1: A#0 duration=0.002 beats velocity=11
+1.1: C1 duration=0.002 beats velocity=11
+1.1: A#3 duration=0.002 beats velocity=11
+1.1: C3 duration=0.002 beats velocity=11
+1.1: A#2 duration=0.002 beats velocity=11
+1.1: C2 duration=0.002 beats velocity=11
+1.1: A#1 duration=0.002 beats velocity=11
+1.1: A#3 duration=0.002 beats velocity=11
+1.1: C3 duration=0.002 beats velocity=11
+1.1: A#2 duration=0.002 beats velocity=11
+1.1: C2 duration=0.002 beats velocity=11
+1.1: A#1 duration=0.002 beats velocity=11
+1.1: C1 duration=0.002 beats velocity=11
+1.1: A#0 duration=0.002 beats velocity=11
+1.1: A#0 duration=0.001 beats velocity=11
+1.1: C1 duration=0.001 beats velocity=11
+1.1: A#3 duration=0.001 beats velocity=11
+1.1: C3 duration=0.001 beats velocity=11
+1.1: A#2 duration=0.001 beats velocity=11
+1.1: C2 duration=0.001 beats velocity=11
+1.1: A#1 duration=0.001 beats velocity=11
+1.1: G4 duration=0.002 beats velocity=11
+1.1: G2 duration=0.002 beats velocity=11
+1.1: G3 duration=0.002 beats velocity=11
+1.1: G4 duration=0.002 beats velocity=11
+1.1: G2 duration=0.002 beats velocity=11
+1.1: G3 duration=0.002 beats velocity=11
+1.1: G4 duration=0.002 beats velocity=11
+1.1: G2 duration=0.002 beats velocity=11
+1.1: G3 duration=0.002 beats velocity=11
+1.1: G4 duration=0.002 beats velocity=11
+1.1: G2 duration=0.002 beats velocity=11
+1.1: G3 duration=0.002 beats velocity=11
+1.1: G4 duration=0.002 beats velocity=11
+1.1: G2 duration=0.002 beats velocity=11
+1.1: G3 duration=0.002 beats velocity=11
+1.1: G1 duration=0.002 beats velocity=11
+1.1: G4 duration=0.004 beats velocity=11
+1.1: G3 duration=0.004 beats velocity=11
+1.1: G2 duration=0.002 beats velocity=11
+1.1: G1 duration=0.002 beats velocity=11
+
+TRACK: Track 7
+Channel: 6
+Program: 0
+Note Count: 291
+
+BAR 1:
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: G2 duration=0.000 beats velocity=12
+1.1: G3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=25
+1.1: D2 duration=0.000 beats velocity=12
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: C4 duration=0.000 beats velocity=25
+1.1: C2 duration=0.000 beats velocity=12
+1.1: C3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=25
+1.1: D2 duration=0.000 beats velocity=12
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=25
+1.1: D2 duration=0.000 beats velocity=12
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: C4 duration=0.000 beats velocity=25
+1.1: C2 duration=0.000 beats velocity=12
+1.1: C3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D2 duration=0.000 beats velocity=12
+1.1: D4 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F2 duration=0.000 beats velocity=12
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#2 duration=0.000 beats velocity=12
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F4 duration=0.000 beats velocity=15
+1.1: F2 duration=0.000 beats velocity=10
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=15
+1.1: D#2 duration=0.000 beats velocity=10
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F#4 duration=0.000 beats velocity=15
+1.1: F#2 duration=0.000 beats velocity=10
+1.1: F#3 duration=0.000 beats velocity=25
+1.1: G4 duration=0.000 beats velocity=15
+1.1: G2 duration=0.000 beats velocity=10
+1.1: G3 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=15
+1.1: D2 duration=0.000 beats velocity=10
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=15
+1.1: D#2 duration=0.000 beats velocity=10
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=25
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=25
+1.1: C3 duration=0.000 beats velocity=25
+1.1: C4 duration=0.000 beats velocity=25
+1.1: A#2 duration=0.000 beats velocity=25
+1.1: A#3 duration=0.000 beats velocity=25
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=25
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=25
+1.1: C3 duration=0.000 beats velocity=25
+1.1: C4 duration=0.000 beats velocity=25
+1.1: A#2 duration=0.000 beats velocity=25
+1.1: A#3 duration=0.000 beats velocity=25
+1.1: F4 duration=0.000 beats velocity=15
+1.1: F2 duration=0.000 beats velocity=10
+1.1: F3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=15
+1.1: D#2 duration=0.000 beats velocity=10
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: F#4 duration=0.000 beats velocity=15
+1.1: F#2 duration=0.000 beats velocity=10
+1.1: F#3 duration=0.000 beats velocity=25
+1.1: G4 duration=0.000 beats velocity=15
+1.1: G2 duration=0.000 beats velocity=10
+1.1: G3 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=15
+1.1: D2 duration=0.000 beats velocity=10
+1.1: D3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=15
+1.1: D#2 duration=0.000 beats velocity=10
+1.1: D#3 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=25
+1.1: C4 duration=0.000 beats velocity=25
+1.1: A#3 duration=0.000 beats velocity=25
+1.1: A#2 duration=0.000 beats velocity=25
+1.1: D#4 duration=0.000 beats velocity=25
+1.1: D4 duration=0.000 beats velocity=25
+1.1: C4 duration=0.000 beats velocity=25
+1.1: A#3 duration=0.000 beats velocity=25
+1.1: F4 duration=0.000 beats velocity=38
+1.1: F2 duration=0.000 beats velocity=33
+1.1: F3 duration=0.000 beats velocity=49
+1.1: D#4 duration=0.000 beats velocity=38
+1.1: D#2 duration=0.000 beats velocity=33
+1.1: D#3 duration=0.000 beats velocity=49
+1.1: F#4 duration=0.000 beats velocity=38
+1.1: F#2 duration=0.000 beats velocity=33
+1.1: F#3 duration=0.000 beats velocity=49
+1.1: G4 duration=0.000 beats velocity=38
+1.1: G2 duration=0.000 beats velocity=33
+1.1: G3 duration=0.000 beats velocity=49
+1.1: D4 duration=0.000 beats velocity=38
+1.1: D2 duration=0.000 beats velocity=33
+1.1: D3 duration=0.000 beats velocity=49
+1.1: D#4 duration=0.003 beats velocity=38
+1.1: D#2 duration=0.003 beats velocity=33
+1.1: D#3 duration=0.003 beats velocity=49
+
+TRACK: Track 10
+Channel: 10
+Program: 0
+Note Count: 38
+
+BAR 1:
+1.1: A#2 duration=0.000 beats velocity=89
+1.1: A#1 duration=0.000 beats velocity=89
+1.1: D#3 duration=0.000 beats velocity=89
+1.1: D#2 duration=0.000 beats velocity=89
+1.1: D3 duration=0.000 beats velocity=89
+1.1: D2 duration=0.000 beats velocity=89
+1.1: C3 duration=0.000 beats velocity=89
+1.1: C2 duration=0.000 beats velocity=89
+1.1: A#2 duration=0.000 beats velocity=89
+1.1: A#1 duration=0.000 beats velocity=89
+1.1: F2 duration=0.000 beats velocity=60
+1.1: F3 duration=0.000 beats velocity=60
+1.1: D#2 duration=0.000 beats velocity=60
+1.1: D#3 duration=0.000 beats velocity=60
+1.1: F#2 duration=0.000 beats velocity=60
+1.1: F#3 duration=0.000 beats velocity=60
+1.1: G2 duration=0.000 beats velocity=60
+1.1: G3 duration=0.000 beats velocity=60
+1.1: D2 duration=0.000 beats velocity=60
+1.1: D3 duration=0.000 beats velocity=60
+1.1: D#2 duration=0.000 beats velocity=60
+1.1: D#3 duration=0.000 beats velocity=60
+1.1: D#3 duration=0.000 beats velocity=89
+1.1: D#2 duration=0.000 beats velocity=89
+1.1: D3 duration=0.000 beats velocity=89
+1.1: D2 duration=0.000 beats velocity=89
+1.1: C3 duration=0.000 beats velocity=89
+1.1: C2 duration=0.000 beats velocity=89
+1.1: A#2 duration=0.000 beats velocity=89
+1.1: A#1 duration=0.000 beats velocity=89
+1.1: D#3 duration=0.000 beats velocity=89
+1.1: D#2 duration=0.000 beats velocity=89
+1.1: D3 duration=0.000 beats velocity=89
+1.1: D2 duration=0.000 beats velocity=89
+1.1: C3 duration=0.000 beats velocity=89
+1.1: C2 duration=0.000 beats velocity=89
+1.1: A#2 duration=0.000 beats velocity=89
+1.1: A#1 duration=0.000 beats velocity=89
+
+TRACK: Track 13
+Channel: 9
+Program: 0
+Note Count: 78
+
+BAR 1:
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: F#1 duration=0.000 beats velocity=61
+1.1: A#1 duration=0.000 beats velocity=30
+1.1: F#1 duration=0.000 beats velocity=30
+1.1: F#1 duration=0.000 beats velocity=30
+
+TRACK: Track 14
+Channel: 11
+Program: 0
+Note Count: 344
+
+BAR 1:
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: G1 duration=0.000 beats velocity=34
+1.1: A#1 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: A#2 duration=0.000 beats velocity=34
+1.1: G2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.000 beats velocity=34
+1.1: D#0 duration=0.000 beats velocity=34
+1.1: D#2 duration=0.000 beats velocity=34
+1.1: D#1 duration=0.003 beats velocity=34
+1.1: D#0 duration=0.003 beats velocity=34
+1.1: A#2 duration=0.003 beats velocity=34
+1.1: G2 duration=0.003 beats velocity=34
+
+TRACK: Track 15
+Channel: 12
+Program: 0
+Note Count: 2
+
+BAR 1:
+1.1: G3 duration=0.002 beats velocity=15
+1.1: G3 duration=0.003 beats velocity=15
+
+=== CONTINUOUS NOTE SEQUENCE ===
+D#0 + C2 + A#1 + A#2 + C3 + G3 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + G1 + A#1 + D#2 + D#3 + D#2 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + A#1 + D#2 + D#3 + D#2 + D#0 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + G1 + A#1 + D#2 + D#3 + D#2 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + A#1 + D#2 + D#3 + D#2 + G#0
+ → 
+D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + G#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + A#2 + A#1 + G1 + A#1 + F#1 + A#1 + A#0 + C1 + A#3 + C3 + A#2 + C2 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + G#0 + C3 + C2 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3
+ → 
+G1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + G#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + G1 + A#1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + D#3 + D#2 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + C1 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D3 + D2 + G1
+ → 
+F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + C3 + C2 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + C1 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + A#2 + A#1 + G1 + A#1 + F#1 + A#1 + A#3 + C3 + A#2 + C2 + A#1 + C1 + A#0 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + A#0 + C2 + A#1 + A#2 + C3 + G3 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3
+ → 
+D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + A#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + G1 + A#1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + G#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D#2 + D#3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2
+ → 
+F#1 + D#2 + A#2 + D#1 + D#0 + G2 + F2 + F3 + F#2 + F#3 + G1 + F#1 + A#1 + D#2 + D#3 + G2 + G3 + D#2 + G#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D2 + D3 + G1 + A#1 + F#1 + A#1 + A#0 + C1 + A#3 + C3 + A#2 + C2 + A#1 + D#2 + D#3 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + G#0 + G3 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3
+ → 
+G1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + G2 + G3 + G1 + A#1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + D#3 + D#2 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + D#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D3 + D2 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + C3 + C2 + G1
+ → 
+F#1 + A#1 + D#2 + D#3 + D#2 + D#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + A#2 + A#1 + D#1 + G1 + A#0 + A#1 + F#1 + A#1 + G4 + G2 + G3 + D#2 + D#3 + D#0 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + D#4 + D#2 + D#3 + F2 + F3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + D#0 + G3 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D4 + D2 + D3 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + C4 + C2 + C3 + G1 + F#1 + A#1 + D#2 + D#3
+ → 
+D#2 + D#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D4 + D2 + D3 + G1 + A#1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + D#3 + D#2 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + D#0 + F#1 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D3 + D2 + G1 + F#1 + A#1 + D#2 + D#3 + D#2 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + C3 + C2 + G1 + F#1 + A#1 + D#2 + D#3 + D#2
+ → 
+D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + A#2 + A#1 + A#1 + F#1 + G4 + G2 + G3 + D#2 + D#3 + D#0 + F#1 + D#2 + D#1 + D#0 + A#2 + G2 + D#2 + D#3 + F2 + F3 + D#4 + D#2 + D#3 + D#0 + G3 + A#2 + G2 + D#2 + D#1 + D#0 + F2 + F3 + D4 + D2 + D3 + D#2 + D#3 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + C4 + C2 + C3 + D#2 + D#3 + D#0 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D3 + D2 + D4
+ → 
+D#2 + D#3 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + D#2 + D#3 + G#0 + D#2 + A#2 + G2 + D#1 + D#0 + F2 + F3 + D#2 + D#3 + D#2 + D#1 + D#0 + A#2 + G2 + F2 + F3 + D#2 + D#3 + G#0 + F2 + F3 + G4 + G2 + G3 + D#2 + D#3
+ → 
+F4 + F2 + F3 + G#0 + G3 + D#4 + D#2 + D#3 + F#4 + F#2 + F#3 + G4 + G2 + G3 + G#0 + D4 + D2 + D3 + D#4 + D#2 + D#3
+ → 
+D#0 + D#0 + G4 + G2 + G3 + D#3 + D#4 + D#0 + G3
+ → 
+D3 + D4 + C3 + C4 + D#0 + A#2 + A#3 + D#0
+ → 
+D#0 + G4 + G2 + G3 + D#3 + D#4 + D#0 + G3 + D3 + D4 + C3 + C4 + D#0
+ → 
+A#2 + A#3 + D#0 + D#0
+ → 
+G1 + G4 + G3 + F4 + F2 + F3 + D#0 + D#4 + D#2 + D#3 + F#4 + F#2 + F#3 + G4 + G2 + G3 + D#0 + D4 + D2 + D3 + D#4 + D#2 + D#3
+ → 
+G2 + G1 + D#4 + D4 + C4 + A#3 + A#2
+ → 
+D#4 + D4 + C4 + A#3
+ → 
+F4 + F2 + F3 + D#4 + D#2 + D#3 + F#4 + F#2 + F#3 + G4 + G2 + G3 + D4 + D2 + D3 + D#4 + D#2 + D#3
+
+
+=== MIDI READ WARNINGS ===
+MIDI READ WARNING
+SMF Track Index: 5
+Track Name: Track 5
+Absolute offset: 1547
+Track-relative offset: 3
+Tick: 177
+Delta-time: 62
+Status: 0x90
+Event: Note On
+Channel: 0
+Data bytes already decoded: 0x40
+Invalid byte: 0x94 (148)
+Expected range: 0x00-0x7F
+Raw event bytes: 0x90 0x40 0x94
+Action: malformed event excluded from musical data. Stopping track parsing due to ambiguous state.
+Source bytes modified: NO
+MIDI READ WARNING
+SMF Track Index: 10
+Track Name: Track 10
+Absolute offset: 5078
+Track-relative offset: 4
+Tick: 33245
+Delta-time: 3072
+Status: 0x9a
+Event: Note On
+Channel: 10
+Data bytes already decoded: 0x41
+Invalid byte: 0x96 (150)
+Expected range: 0x00-0x7F
+Raw event bytes: 0x9a 0x41 0x96
+Action: malformed event excluded from musical data. Stopping track parsing due to ambiguous state.
+Source bytes modified: NO
+MIDI READ WARNING
+SMF Track Index: 12
+Track Name: Track 12
+Absolute offset: 5548
+Track-relative offset: 3
+Tick: 97
+Delta-time: 0
+Status: 0x8a
+Event: Note Off
+Channel: 10
+Data bytes already decoded: 0x40
+Invalid byte: 0x99 (153)
+Expected range: 0x00-0x7F
+Raw event bytes: 0x8a 0x40 0x99
+Action: malformed event excluded from musical data. Stopping track parsing due to ambiguous state.
+Source bytes modified: NO
+MIDI READ WARNING
+SMF Track Index: 30
+Track Name: Track 30
+Absolute offset: 48123
+Track-relative offset: 3
+Tick: 98
+Delta-time: 0
+Status: 0x81
+Event: Note Off
+Channel: 1
+Data bytes already decoded: 0x40
+Invalid byte: 0x97 (151)
+Expected range: 0x00-0x7F
+Raw event bytes: 0x81 0x40 0x97
+Action: malformed event excluded from musical data. Stopping track parsing due to ambiguous state.
+Source bytes modified: NO

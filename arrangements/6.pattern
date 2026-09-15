@@ -1,0 +1,16 @@
+TEMPO 120
+TIME 4/4
+
+TRACK Analog Pad
+
+BAR 1
+1.1: D3 + A3 + F4 duration=1/1 velocity=68
+
+BAR 2
+2.1: C3 + G3 + E4 duration=1/1 velocity=64
+
+BAR 3
+3.1: D3 + A3 + F4 duration=1/1 velocity=70
+
+BAR 4
+4.1: G2 + D3 + A3 duration=1/1 velocity=66
