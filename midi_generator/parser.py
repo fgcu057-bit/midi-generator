@@ -186,7 +186,9 @@ def _parse_note_line(
     track_name: str,
 ) -> list[NoteEvent]:
     """Parse a note line into NoteEvents for the given track.
-    Supports both canonical "bar.beat: note-list" and shorthand "NOTE POSITION DURATION".
+    Supports the canonical "bar.beat: note-list", the absolute shorthand
+    "NOTE BAR.BEAT(.SUBDIVISION) DURATION", and the BAR-relative shorthand
+    "NOTE BEAT(.SIXTEENTH) DURATION" resolved against the active BAR.
     """
     # Try canonical syntax first
     match = _POSITION_RE.match(line)
@@ -232,43 +234,59 @@ def _parse_note_line(
         return events
 
     # Try shorthand syntax: NOTE POSITION DURATION
+    # A two-part token "X.Y" has two deterministic meanings:
+    #   * absolute  -> bar.beat when X == the active BAR (frozen semantics)
+    #   * BAR-relative -> beat(.sixteenth) when under an active BAR whose number != X
+    # A three-part token "X.Y.Z" is always absolute bar.beat.subdivision.
     sh_match = _SHORTHAND_RE.match(line)
     if sh_match:
         pitch = sh_match.group(1)
-        bar = int(sh_match.group(2))
-        beat = int(sh_match.group(3))
-        sub = int(sh_match.group(4)) if sh_match.group(4) is not None else 1
+        token_bar = int(sh_match.group(2))
+        token_beat = int(sh_match.group(3))
+        token_sub = int(sh_match.group(4)) if sh_match.group(4) is not None else 1
+        sub_explicit = sh_match.group(4) is not None
         duration_str = sh_match.group(5)
-        
-        if bar != current_bar:
-            raise PatternError(
-                line_no, f"Position bar {bar} does not match the active BAR {current_bar} in track {track_name!r}"
-            )
-            
+
         beats_per_bar = time_signature.numerator
-        position_str = _position_token(bar, beat, sub)
-        if not 1 <= beat <= beats_per_bar:
+
+        if token_bar == current_bar:
+            # ABSOLUTE shorthand: bar.beat(.subdivision), matching the active BAR.
+            absolute_bar, absolute_beat, absolute_sub = token_bar, token_beat, token_sub
+        elif not sub_explicit:
+            # BAR-RELATIVE shorthand: the token is beat(.sixteenth) inside the
+            # active BAR. The active BAR supplies the absolute song bar.
+            absolute_bar, absolute_beat, absolute_sub = current_bar, token_bar, token_beat
+        else:
+            # A three-part token is absolute-only: the bar must match the active BAR.
+            raise PatternError(
+                line_no, f"Position bar {token_bar} does not match the active BAR {current_bar} in track {track_name!r}"
+            )
+
+        position_str = _position_token(absolute_bar, absolute_beat, absolute_sub)
+        if not 1 <= absolute_beat <= beats_per_bar:
             raise PatternError(
                 line_no,
-                f"Position {position_str}: Beat {beat} is outside the 1..{beats_per_bar} range of "
+                f"Position {position_str}: Beat {absolute_beat} is outside the 1..{beats_per_bar} range of "
                 f"time signature {time_signature.numerator}/{time_signature.denominator}",
             )
-        if not 1 <= sub <= 4:
+        if not 1 <= absolute_sub <= 4:
             raise PatternError(
                 line_no,
-                f"Position {position_str}: Sixteenth sub-position {sub} is outside the 1..4 range "
+                f"Position {position_str}: Sixteenth sub-position {absolute_sub} is outside the 1..4 range "
                 f"(a beat is 4 sixteenths)",
             )
 
         duration = _parse_duration(line_no, duration_str)
-        start_beats = float((bar - 1) * beats_per_bar + (beat - 1) + (sub - 1) * 0.25)
+        start_beats = float((absolute_bar - 1) * beats_per_bar + (absolute_beat - 1) + (absolute_sub - 1) * 0.25)
         duration_beats = float(duration * beats_per_bar)
         
         return [NoteEvent(pitch=pitch, start_beats=start_beats, duration_beats=duration_beats, velocity=DEFAULT_VELOCITY)]
 
     raise PatternError(
         line_no,
-        "Expected \"<bar>.<beat>: <notes>\", e.g. 1.2: C4 + E4, or shorthand \"NOTE POSITION DURATION\", e.g. A#4 1.1 1/4. "
+        "Expected \"<bar>.<beat>: <notes>\", e.g. 1.2: C4 + E4, absolute shorthand "
+        "\"NOTE BAR.BEAT DURATION\", e.g. A#4 1.1 1/4, or BAR-relative shorthand "
+        "\"NOTE BEAT DURATION\", e.g. F4 3.1 1/4 inside BAR 9 (beat 3 of bar 9). "
         "Note lines must belong to a BAR section.",
     )
 
